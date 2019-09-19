@@ -21,7 +21,7 @@ T_impuesto = Entry(cuerpo, textvariable=impuesto).grid(row=2, column=2, sticky=W
 L_u2 = Label(cuerpo, text= "%").grid(row=2, column=3, sticky=W)														#18
 L_años = Label(cuerpo, text = "         Annuitätendarlehen: ").grid(row=3, column=1, sticky=E)						#19
 T_años = Entry(cuerpo, textvariable=años).grid(row=3, column=2, sticky=W)											#20
-L_u3 = Label(cuerpo, text= "Años").grid(row=3, column=3, sticky=W)													#21
+L_u3 = Label(cuerpo, text= "Jahren").grid(row=3, column=3, sticky=W)													#21
 #-----------Funciones--------
 def calcular():																										#22
 	global borrar																									#23
