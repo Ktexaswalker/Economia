@@ -6,7 +6,7 @@ cuerpo = Frame(raiz)																								#4
 cuerpo.pack()																										#5
 #---------Variables----------
 cantidad = IntVar()																									#6
-impuesto = IntVar()																									#7
+impuesto = DoubleVar()																									#7
 años = IntVar()																										#8
 visualizacion = IntVar()																							#9
 borrar = 0																											#10
@@ -43,7 +43,7 @@ def resultados(f,repe):																								#30
 	global a 																										#38
 	n = int(años.get())																								#39
 	if repe == 0:																									#40
-		imp = int(impuesto.get())																					#41
+		imp = float(impuesto.get())																					#41
 		sumat = cantidad.get()																						#42
 		k = sumat																									#43
 		q = 1+imp/100																								#44
