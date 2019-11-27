@@ -1,0 +1,12 @@
+pip install pyinstaller
+ir al direcctorio desde consola
+cmd -> cd ..
+C:\Users\Name\Python\Github\New
+pyinstaller --windowed --onefile archivo_para_subir.py
+
+pyinstaller: aplicación para generar ejecutables
+
+MODIFICADOR DE INSTRUCCIÓN
+--windowed: evita la visualización de la consola tras el programa ejecutandose
+--onefile: compacta el ejecutable en un solo archivo, distribuible y compatible sin necesidad de python instalado
+--icon=ruta./nombre_del_icono.ico: El archivo.exe se genera con el nuevo icono
